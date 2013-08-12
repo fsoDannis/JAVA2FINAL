@@ -10,7 +10,8 @@ import android.content.*;
 import android.os.*;
 
 /**
- * Class to implement the custom service to download the json to the directories
+ * Class to implement the custom service to download the directories from the
+ * remote json
  */
 public class DownloadDirectoriesService extends Service {
 

@@ -10,7 +10,8 @@ import android.content.*;
 import android.os.*;
 
 /**
- * Class to implement the custom service to download the json to the directories
+ * Class to implement the custom service to download the directories from the
+ * remote json
  */
 public class DownloadDirectoriesService extends Service {
 
@@ -61,13 +62,7 @@ public class DownloadDirectoriesService extends Service {
 	}
 
 	@Override
-	public void onDestroy() {
-		super.onDestroy();
-	}
-	
-	@Override
 	public IBinder onBind(Intent arg0) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-}

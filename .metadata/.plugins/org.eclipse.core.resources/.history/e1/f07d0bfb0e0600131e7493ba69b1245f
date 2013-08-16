@@ -286,7 +286,7 @@ public class ConsultantFinderContentProvider extends ContentProvider {
 		directoriesProjectionMap.put(Directories.PHONE, Directories.PHONE);
 		directoriesProjectionMap.put(Directories.DESCRIPTION, Directories.DESCRIPTION);
 		directoriesProjectionMap.put(Directories.IMAGE, Directories.IMAGE);
-	Log.i("This is my DB log",Directories.COMPANY);
+	Log.i(Directories.COMPANY,"This is my DB log");
 	}
 
 }
